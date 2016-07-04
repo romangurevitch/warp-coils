@@ -1,5 +1,5 @@
 node {
-    git url: 'https://github.com/TamirHadad/warp-coils.git'
+    git url: 'https://github.com/romangurevitch/warp-coils.git'
     sh "npm install"
     sh "npm test"
     def version = "1.${env.BUILD_ID}.0"
